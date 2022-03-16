@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -50,26 +50,12 @@
         </div>
     </div>
 
-    <script>
+    <script src="index.js"></script>
+    <script src="somar.js"></script>
+    <script src="multiplicar.js"></script>
+    <script src="dividir.js"></script>
+    <script src="subtrair.js"></script>
 
-        function insert(num){
-            let numero = document.getElementById('resultado').innerHTML;
-            document.getElementById('resultado').innerHTML = numero +num;
-        }
-        function clean(){
-            document.getElementById("resultado").innerHTML="";
-        }
-        function back(){
-            let resultado = document.getElementById("resultado").innerHTML;
-            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
-        }
-        function calcular(){
-
-            let resultado = document.getElementById("resultado").innerHTML;
-            if (resultado){
-                document.getElementById("resultado").innerHTML = eval(resultado)
-            }
-        }
-    </script>
+   
 </body>
 </html>
