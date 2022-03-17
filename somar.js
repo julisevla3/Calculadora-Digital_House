@@ -1,3 +1,3 @@
- function somar (a,b){
-     return a + b;
- }
+function somar(a,b) {
+    return a+b;
+}
